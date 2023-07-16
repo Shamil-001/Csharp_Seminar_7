@@ -39,21 +39,6 @@ void PrintMatrix(int[,] matrixForPrint)
     }
 }
 
-// int FindElement(int[,] tempMatrix, int positionLine, int positionColumn)
-// {
-//     for (int i = 0; i < tempMatrix.GetLength(0); i++)
-//     {
-//         for (int j = 0; j < tempMatrix.GetLength(1); j++)
-//         {
-//             if (tempMatrix[i, j] == tempMatrix[positionLine, positionColumn])
-//             {
-//                 tempMatrix[i, j] = tempMatrix[positionLine, positionColumn];
-//             }
-//         }
-//     }
-//     System.Console.WriteLine("Такой позиции не существует");
-//     return tempMatrix[positionLine, positionColumn];
-// }
 void FindElement(int[,] tempMatrix, int row, int col, int positionLine, int positionColumn)
 {
 
@@ -66,8 +51,6 @@ void FindElement(int[,] tempMatrix, int row, int col, int positionLine, int posi
         System.Console.WriteLine("Такой позиции не существует");
     }
 }
-
-
 
 
 
